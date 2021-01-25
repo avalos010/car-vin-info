@@ -1,4 +1,4 @@
-export default async function getVinInfo(vinre) {
+export default async function getVinInfo(vin) {
     const res = await fetch(`https://cors-anywhere.herokuapp.com/http://api.carmd.com/v3.0/decode?vin=${vin}`,  {
     // mode: 'no-cors',
     headers: {
